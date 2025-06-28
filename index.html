@@ -1,7 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    header {
+      background: #4f46e5;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      border-radius: 12px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    section {
+      margin-top: 40px;
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    section h2 {
+      margin-bottom: 15px;
+      color: #4f46e5;
+      font-size: 1.5rem;
+    }
+
+    .projects li, .experience li, .skills li {
+      margin-bottom: 8px;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skills-list span {
+      background: #4f46e5;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+  <header>
+    <h1>Your Name</h1>
+    <p>Final Year Computer Science Student</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a passionate computer science student with a love for solving real-world problems using code.
+      I enjoy web development, AI, and creating fun projects that make an impact.
+    </p>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Online Bookstore (Scala):</strong> A functional bookstore system with admin/customer roles.</li>
+      <li><strong>InclusiveWork App:</strong> Job-seeking platform for underrepresented communities.</li>
+      <li><strong>Personal Portfolio Website:</strong> This very site you're looking at!</li>
+    </ul>
+  </section>
+
+  <section class="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Web Developer Intern</strong> – XYZ Company (2023)</li>
+      <li><strong>Secretary</strong> – Yoga Club (2024)</li>
+      <li><strong>Invigilator</strong> – Exam Committee (2024)</li>
+    </ul>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Bootstrap</span>
+      <span>JavaScript</span>
+      <span>Python</span>
+      <span>Java</span>
+      <span>Scala</span>
+      <span>PHP</span>
+      <span>Laravel</span>
+      <span>SQL</span>
+      <span>C++</span>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Your Name. All rights reserved.
+  </footer>
+
 </body>
 </html>
