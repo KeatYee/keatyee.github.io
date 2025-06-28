@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header className="hero">
         <div className="hero-content">
-          <h1>Your Name</h1>
+          <h1>Loke Keat Yee</h1>
           <p>Final Year Computer Science Student</p>
         </div>
       </header>
