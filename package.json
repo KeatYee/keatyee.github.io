@@ -1,6 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
+  "homepage": "https://keatyee.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -20,7 +21,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b main -d build"
-
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +40,9 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://keatyee.github.io"
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
+  }
 }
